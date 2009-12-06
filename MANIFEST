@@ -1,8 +1,10 @@
+001-dojo_box_new.t
 Changes
 MANIFEST
 Makefile.PL
 README
+lib/Dojo/Box.pm
+lib/Dojo/Pile.pm
 lib/Dojo/PileOfBoxes.pm
 t/00-load.t
-t/pod-coverage.t
 t/pod.t
