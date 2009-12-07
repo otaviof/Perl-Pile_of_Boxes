@@ -6,7 +6,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 3;
+use Test::More tests => 4;
 use Dojo::Pile;
 
 my $pile;
@@ -23,5 +23,10 @@ $pile = new Dojo::Pile( input_list => [ 4, 2, 1, 3, 1, 5 ] );
 
 ok( $pile->generate() == 3,
     "Should pass, for [ 4, 2, 1, 3, 1, 5 ] the answer is 3" );
+
+$pile = new Dojo::Pile( input_list => [ 8, 10, 4, 6, 3, 11, 7, 8, 5 ] );
+
+ok( $pile->generate() == 4,
+    "Should pass, for [ 8, 10, 4, 6, 3, 11, 7, 8, 5] the answer is 4" );
 
 __END__

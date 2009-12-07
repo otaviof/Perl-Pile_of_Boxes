@@ -1,47 +1,18 @@
 Dojo-PileOfBoxes
+****************
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
-
+Perl implementation using "Moose" of Pile of Boxes
+(http://online-judge.uva.es/p/v9/946.html)
 
 INSTALLATION
 
 To install this module, run the following commands:
 
-	perl Makefile.PL
-	make
-	make test
-	make install
-
-SUPPORT AND DOCUMENTATION
-
-After installing, you can find documentation for this module with the
-perldoc command.
-
-    perldoc Dojo::PileOfBoxes
-
-You can also look for information at:
-
-    RT, CPAN's request tracker
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dojo-PileOfBoxes
-
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Dojo-PileOfBoxes
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/Dojo-PileOfBoxes
-
-    Search CPAN
-        http://search.cpan.org/dist/Dojo-PileOfBoxes/
-
+    $ perl Makefile.PL
+    $ make
+    $ make test
+    $ make install
+    $ perl bin/pile_of_boxes.pl 8 10 4 6 3 11 7 8 5
 
 COPYRIGHT AND LICENCE
 
@@ -49,4 +20,3 @@ Copyright (C) 2009 Otavio Fernandes
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
-

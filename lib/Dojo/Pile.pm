@@ -27,7 +27,6 @@ has 'boxes' => (
 sub generate {
     my ($self) = @_;
     $self->insert_in_boxes($_) foreach ( @{ $self->input_list } );
-    print "Debug -> pile #", $#{ $self->boxes } + 1, "#\n";
     return $#{ $self->boxes } + 1;
 }
 
@@ -49,11 +48,11 @@ sub insert_in_boxes {
 
     # which box we can insert this value?
     foreach my $box ( @{ $self->boxes } ) {
-        return $self->create_box($insert)
-            if ( !$box->insert($insert) );
+        return
+            if ( $box->insert($insert) );
     }
 
-    return 0;
+    return $self->create_box($insert);
 }
 
 1;
