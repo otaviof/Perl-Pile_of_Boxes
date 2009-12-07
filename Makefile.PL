@@ -1,5 +1,8 @@
+#!/usr/bin/env perl
+
 use strict;
 use warnings;
+
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
@@ -8,8 +11,9 @@ WriteMakefile(
     VERSION   => '0.1',
     PL_FILES  => {'/bin/pile_of_boxes.pl'},
     PREREQ_PM => {
-        'Test::More' => 0,
+        'Test::More' => '0.94',
         'Moose'      => '0.39',
+        'Test::Pod'  => '1.40',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES    => 'Dojo-PileOfBoxes-*' },
