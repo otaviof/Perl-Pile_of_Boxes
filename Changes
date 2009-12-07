@@ -1,3 +1,9 @@
+commit fbd8cf530639b41cd7d77fd3ade80c5305e6fe5e
+Author: Otávio Fernandes <otaviof@gmail.com>
+Date:   Mon Dec 7 00:20:29 2009 -0200
+
+    generating Changes file from Git
+
 commit 8115f25b0b4d9c94c3ae5b9d91e3c5462edd1d2c
 Author: Otávio Fernandes <otaviof@gmail.com>
 Date:   Mon Dec 7 00:12:23 2009 -0200
