@@ -1,5 +1,29 @@
-Revision history for Dojo-PileOfBoxes
+commit 8115f25b0b4d9c94c3ae5b9d91e3c5462edd1d2c
+Author: Otávio Fernandes <otaviof@gmail.com>
+Date:   Mon Dec 7 00:12:23 2009 -0200
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+    including pile_of_boxes.pl and changing README
 
+commit edf0c0580fae87734c38444c51a971d9140af449
+Author: Otávio Fernandes <otaviof@gmail.com>
+Date:   Sun Dec 6 23:03:33 2009 -0200
+
+    finished class Pile and Box whit tests
+
+commit d859e5b219212c84e5c6f32d7dcc6beb8d95b7e4
+Author: Otávio Fernandes <otaviof@gmail.com>
+Date:   Sun Dec 6 14:00:33 2009 -0200
+
+    test and class for building a Box recursively
+
+commit a08329b5eafe206b7a2a0efbed31f27ddc4808c2
+Author: Otávio Fernandes <otaviof@gmail.com>
+Date:   Sun Dec 6 12:39:04 2009 -0200
+
+    first test, new Box class
+
+commit 235d7b0846e47dc53e8c78511c395da6fcfd844a
+Author: Otávio Fernandes <otaviof@gmail.com>
+Date:   Sun Dec 6 11:47:35 2009 -0200
+
+    initial version, empty

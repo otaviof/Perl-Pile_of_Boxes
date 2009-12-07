@@ -5,7 +5,6 @@ README
 bin/pile_of_boxes.pl
 lib/Dojo/Box.pm
 lib/Dojo/Pile.pm
-t/00-load.t
 t/pod.t
 t/001-dojo_box_new.t
 t/002-dojo_box_insert.t

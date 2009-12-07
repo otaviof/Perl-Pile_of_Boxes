@@ -14,3 +14,19 @@ WriteMakefile(
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES    => 'Dojo-PileOfBoxes-*' },
 );
+
+mk_changes_from_git();
+
+# ---------------------------------------------------------------------------
+#                                  Sub-routines
+# ---------------------------------------------------------------------------
+
+sub mk_changes_from_git {
+    return if ( !-d '.git' );
+    unlink('Changes');
+    open( my $F, '>', 'Changes' ) or die $!;
+    print $F `git log`;
+    close($F);
+}
+
+__END__
