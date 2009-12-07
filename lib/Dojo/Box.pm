@@ -26,7 +26,7 @@ has 'boxes' => (
 sub insert {
     my ( $self, $value ) = @_;
     return if ( !$value
-        or $value > $self->height
+        or $value >= $self->height
         or $value > $self->left );
 
     my $box = __PACKAGE__->new( height => $value );
